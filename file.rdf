@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://dev.bigdatagrapes.eu/BDGResource">
+	<bindingClass xmlns="http://viceversatech.com/rdfbeans/2.0/">com.agroknow.bdg.model.BDGResource</bindingClass>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BDGResource/123">
+	<rdf:type rdf:resource="http://dev.bigdatagrapes.eu/BDGResource"/>
+	<name xmlns="foaf:">mihalis</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sensor">
+	<bindingClass xmlns="http://viceversatech.com/rdfbeans/2.0/">com.agroknow.bdg.model.BDGSensor</bindingClass>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BSGSensor/d98df076-36ad-3e72-bcc4-a824a078ecb7">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.0</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.0</long>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/ns/sosa/Observation">
+	<bindingClass xmlns="http://viceversatech.com/rdfbeans/2.0/">com.agroknow.bdg.model.BDGObservation</bindingClass>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BDGObservation/447d56ce-7eeb-34fb-af0e-9012626e5116">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://qudt.org/1.1/schema/qudt#QuantityValue">
+	<bindingClass xmlns="http://viceversatech.com/rdfbeans/2.0/">com.agroknow.bdg.model.BDGObservationResult</bindingClass>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BDGObservationResult/8156580c-0535-327e-9c10-f26198e4a58c">
+	<rdf:type rdf:resource="http://qudt.org/1.1/schema/qudt#QuantityValue"/>
+	<numericValue xmlns="http://qudt.org/1.1/schema/qudt#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.4</numericValue>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://qudt.org/vocab/quantity#AbsoluteHumidity">
+	<bindingClass xmlns="http://viceversatech.com/rdfbeans/2.0/">com.agroknow.bdg.model.qudt.AbsoluteHumidity</bindingClass>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1d5orallax1">
+	<rdf:type rdf:resource="http://qudt.org/vocab/quantity#AbsoluteHumidity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BDGObservationResult/8156580c-0535-327e-9c10-f26198e4a58c">
+	<unit xmlns="http://qudt.org/1.1/schema/qudt#" rdf:nodeID="node1d5orallax1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BDGObservation/447d56ce-7eeb-34fb-af0e-9012626e5116">
+	<hasResult xmlns="http://www.w3.org/ns/sosa/" rdf:resource="bdg:BDGObservationResult/8156580c-0535-327e-9c10-f26198e4a58c"/>
+	<resultTime xmlns="http://www.w3.org/ns/sosa/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-12T13:41:43.581+02:00</resultTime>
+	<madeBySensor xmlns="http://www.w3.org/ns/sosa/" rdf:resource="bdg:BSGSensor/d98df076-36ad-3e72-bcc4-a824a078ecb7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="bdg:BSGSensor/d98df076-36ad-3e72-bcc4-a824a078ecb7">
+	<makeObservation xmlns="http://www.w3.org/ns/sosa/" rdf:resource="bdg:BDGObservation/447d56ce-7eeb-34fb-af0e-9012626e5116"/>
+</rdf:Description>
+
+</rdf:RDF>

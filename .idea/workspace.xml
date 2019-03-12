@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="684b6af1-d47d-40eb-8b55-cc7db2a995fd" name="Default Changelist" comment="" />
+    <list default="true" id="684b6af1-d47d-40eb-8b55-cc7db2a995fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservableProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationInstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/AbsoluteHumidity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/DegreeCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/file.rdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/triples-posc.dat" beforeDir="false" afterPath="$PROJECT_DIR$/repo/triples-posc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/triples-spoc.dat" beforeDir="false" afterPath="$PROJECT_DIR$/repo/triples-spoc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/values.dat" beforeDir="false" afterPath="$PROJECT_DIR$/repo/values.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/values.hash" beforeDir="false" afterPath="$PROJECT_DIR$/repo/values.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/values.id" beforeDir="false" afterPath="$PROJECT_DIR$/repo/values.id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agroknow/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/common/beans/Beans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/common/reflect/Classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/common/reflect/Fields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/common/reflect/Methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/Identifiable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/MappingOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMappingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/SourcedObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/UnidentifiableObjectException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/annotations/Iri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/annotations/RdfId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/annotations/RdfProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/annotations/RdfsClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/codecs/UUIDCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/impl/IdentifiableImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/complexible/pinto/impl/SourcedObjectImpl.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,12 +49,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="-68">
+              <caret line="263" selection-start-line="263" selection-end-line="276" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -24,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="371">
+              <caret line="119" selection-start-line="119" selection-end-line="121" selection-end-column="132" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,43 +71,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/common/beans/Beans.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservableProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/cyberborean/rdfbeans/2.2/rdfbeans-2.2.jar!/org/cyberborean/rdfbeans/RDFBeanManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="71" column="10" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="10" />
+            <state relative-caret-position="397">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/AnotherTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-82">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/BDG.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/DegreeCelsius.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="135">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,17 +138,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/xenei/PA4RDF/1.3/PA4RDF-1.3.jar!/org/xenei/jena/entities/EntityManager.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file.rdf">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -132,17 +203,36 @@
       <find>wr</find>
       <find>marsh</find>
       <find>public</find>
+      <find>gua</find>
+      <find>sesa</find>
+      <find>sesame-rio</find>
+      <find>b5389f55-df95-3fca-9979-bfb0401288fb</find>
+      <find>org.eclipse.rdf4j</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/BDG.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agroknow/Vocabulary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agroknow/AnotherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/DegreeCelsius.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/AbsoluteHumidity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGPhenomenonTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationInstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGSensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/Unit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservableProperty.java" />
       </list>
     </option>
   </component>
@@ -160,6 +250,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="testprotege" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testprotege" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -172,13 +267,14 @@
     <option name="width" value="1680" />
     <option name="height" value="947" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +306,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="agroknow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestProtege" type="b2602c69:ProjectViewProjectNode" />
@@ -218,8 +314,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="complexible" type="462c0819:PsiDirectoryNode" />
+              <item name="agroknow" type="462c0819:PsiDirectoryNode" />
+              <item name="bdg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestProtege" type="b2602c69:ProjectViewProjectNode" />
@@ -227,20 +323,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="complexible" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="agroknow" type="462c0819:PsiDirectoryNode" />
+              <item name="bdg" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestProtege" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProtege" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agroknow" type="462c0819:PsiDirectoryNode" />
+              <item name="bdg" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="qudt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552061825413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552409790467" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -286,47 +395,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552044693203</updated>
-      <workItem from="1552044696556" duration="10691000" />
+      <workItem from="1552044696556" duration="11285000" />
+      <workItem from="1552152725556" duration="5011000" />
+      <workItem from="1552377477100" duration="8478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10691000" />
+    <option name="totallyTimeSpent" value="24774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32959184" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32967034" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,13 +450,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/agroknow/Test.java</url>
-          <line>44</line>
+          <line>55</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/agroknow/Test.java</url>
-          <line>122</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -372,20 +485,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/BDGField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/impl/DefaultBDGField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/BDGField.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/impl/DefaultBDGField.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.10.0/jena-core-3.10.0.jar!/org/apache/jena/ontology/ObjectProperty.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -436,26 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/MyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="87" column="64" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#2319#2320#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/MyFactory.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/rdf4j/rdf4j-rio-api/2.5.0/rdf4j-rio-api-2.5.0.jar!/org/eclipse/rdf4j/rio/RDFFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-934">
@@ -494,8 +576,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/common/beans/Beans.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/edu/stanford/protege/org.protege.owl.rdf/1.0.2/org.protege.owl.rdf-1.0.2.jar!/org/openrdf/model/ValueFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMapper.java" />
     <entry file="file://$PROJECT_DIR$/file.rdf">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/edu/stanford/protege/org.protege.owl.rdf/1.0.2/org.protege.owl.rdf-1.0.2.jar!/org/openrdf/rio/RDFWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.10.0/jena-core-3.10.0.jar!/org/apache/jena/rdf/model/ModelCon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1670">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/xenei/PA4RDF/1.3/PA4RDF-1.3.jar!/org/xenei/jena/entities/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,18 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/BDG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="345">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -526,52 +621,189 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/cyberborean/rdfbeans/2.2/rdfbeans-2.2.jar!/org/cyberborean/rdfbeans/RDFBeanManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-4473">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/AnotherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="157">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/AbsoluteHumidity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/common/beans/Beans.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/jena/jena-core/3.10.0/jena-core-3.10.0.jar!/org/apache/jena/datatypes/xsd/impl/XSDDateTimeStampType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/complexible/pinto/RDFMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGPhenomenonTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/rdf4j/rdf4j-queryalgebra-evaluation/2.5.0/rdf4j-queryalgebra-evaluation-2.5.0.jar!/org/eclipse/rdf4j/query/algebra/evaluation/function/rdfterm/UUID.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationInstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/DegreeCelsius.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/qudt/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="-68">
+          <caret line="263" selection-start-line="263" selection-end-line="276" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="119" selection-start-line="119" selection-end-line="121" selection-end-column="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agroknow/bdg/model/BDGObservableProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,10 +6,10 @@ import org.cyberborean.rdfbeans.annotations.RDFBean;
 import org.cyberborean.rdfbeans.annotations.RDFNamespaces;
 import org.cyberborean.rdfbeans.annotations.RDFSubject;
 
+@Deprecated
 @RDFBean("bdg:BDGResource")
 @RDFNamespaces({
-        "foaf = http://xmlns.com/foaf/0.1/",
-        "bdg = http://rdfbeans.viceversatech.com/test-ontology/persons/"
+        "bdg = http://dev.bigdatagrapes.eu/"
 })
 public class BDGResource {
 
@@ -20,7 +20,7 @@ public class BDGResource {
     public BDGResource() {
     }
 
-    @RDFSubject(prefix = "bdg:")
+    @RDFSubject(prefix = "bdg:BDGResource/")
     public String getId() {
         return id;
     }
